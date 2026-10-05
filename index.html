@@ -1,63 +1,12 @@
 <!DOCTYPE html>
-<html lang="hi" class="scroll-smooth">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aayush Kashyap | Student Leader | ABVP Activist</title>
-  
-  <meta name="description" content="Portal of Aayush Kashyap - Student Leader, Social Activist, Khelo Bharat Sah-Sanyojak (ABVP Nagar Unit), Chapra, Bihar.">
-  <meta name="keywords" content="Aayush Kashyap, ABVP Chapra, Khelo Bharat, Akhil Bhartiya Vidyarthi Parishad, Student Leader Bihar">
-  <meta name="author" content="Aayush Kashyap">
-  <link rel="canonical" href="https://aayushkashyap03.github.io/Aayushkashyap/">
+  <title>Aayush Kashyap - Official Portfolio</title>
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Aayush Kashyap | Student Leader">
-  <meta property="og:description" content="Profile of Aayush Kashyap, Student Leader & ABVP Activist.">
-  <meta property="og:image" content="1000083035.png">
-  <meta property="og:type" content="profile">
-
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              orange: '#f97316',
-              deep: '#c2410c',
-              saffron: '#ea580c',
-              dark: '#0f172a',
-              card: '#1e293b'
-            }
-          },
-          fontFamily: {
-            hindi: ['"Tiro Devanagari Hindi"', 'serif'],
-            sans: ['"Plus Jakarta Sans"', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
-
-  <!-- Schema.org Person Metadata -->
+  <!-- Google Knowledge Graph / Schema Structured Data -->
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Aayush Kashyap",
-  "jobTitle": "Student Activist & Digital Creator",
-  "url": "https://aayushkashyap03.github.io/Aayushkashyap/",
-  "sameAs": [
-    "https://www.wikidata.org/wiki/Q141644555",
-    "https://github.com/Aayushkashyap03",
-    "https://www.instagram.com/aayushkashyap03"
-  ]
-}
-</script>
   {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -68,7 +17,7 @@
       "@type": "Organization",
       "name": "Akhil Bharatiya Vidyarthi Parishad (ABVP)"
     },
-    "birthDate": "2010-08-03",
+    "birthDate": "2008-08-03",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Chapra",
@@ -78,1071 +27,300 @@
     "image": "1000083035.png",
     "url": "https://aayushkashyap03.github.io/Aayushkashyap/",
     "sameAs": [
+      "https://www.wikidata.org/wiki/Q141644555",
       "https://instagram.com/AayushKashyap03",
-      "https://x.com/AayushKashyap03",
+      "https://x.com/Aayushkashyap03",
       "https://facebook.com/AayushKashyap03",
       "https://youtube.com/@Aayushkashyap03",
-      "https://whatsapp.com/channel/0029Vb8lKOcEFeXevvDkfI3J"
+      "https://whatsapp.com/channel/0029Vb8IKOcEFeXaKz7m8h2k"
     ]
   }
   </script>
-  
+
+  <!-- Icons and Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
   <style>
-    .no-scrollbar::-webkit-scrollbar { display: none; }
-    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    :root {
+      --primary: #f97316;
+      --primary-dark: #ea580c;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding-bottom: 50px;
+    }
+
+    /* Header Nav */
+    .top-navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 18px;
+      background: #ffffff;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .nav-thumb {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 2px solid var(--primary);
+      object-fit: cover;
+    }
+
+    .nav-text h1 {
+      font-size: 0.98rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .nav-text p {
+      font-size: 0.72rem;
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: #334155;
+      font-size: 1.15rem;
+    }
+
+    /* Page Content Container */
+    .content-box {
+      max-width: 580px;
+      margin: 0 auto;
+      padding: 14px;
+    }
+
+    /* Hero Banner Area */
+    .hero-banner {
+      width: 100%;
+      border-radius: 16px;
+      overflow: hidden;
+      margin-bottom: 14px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .hero-banner img {
+      width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    /* Profile Badge Card */
+    .profile-card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      margin-bottom: 14px;
+    }
+
+    .profile-meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .avatar-large {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid var(--primary);
+      object-fit: cover;
+      background: #fff7ed;
+      flex-shrink: 0;
+    }
+
+    .profile-titles h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .badge-primary {
+      color: var(--primary);
+      font-size: 0.82rem;
+      font-weight: 600;
+      margin-top: 2px;
+    }
+
+    .sub-role {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    /* Quick Links Box */
+    .links-card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    .card-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #0f172a;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .links-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .social-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #ffffff;
+      transition: opacity 0.2s ease;
+    }
+
+    .social-row:active {
+      opacity: 0.9;
+    }
+
+    .btn-left-part {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn-left-part i {
+      font-size: 1.2rem;
+    }
+
+    .btn-insta { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+    .btn-tw { background: #000000; }
+    .btn-fb { background: #1877f2; }
+    .btn-yt { background: #ff0000; }
+    .btn-wa { background: #25d366; }
+    .btn-git { background: #24292e; }
+
+    footer {
+      text-align: center;
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      margin-top: 24px;
+    }
   </style>
 </head>
-<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 font-sans transition-colors duration-200">
+<body>
 
-  <!-- Header Navigation -->
-  <nav class="sticky top-0 z-50 backdrop-blur-md bg-white/95 dark:bg-slate-900/95 border-b border-slate-200 dark:border-slate-800">
-    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <img src="1000083035.png" alt="Aayush Kashyap" class="w-10 h-10 rounded-full border-2 border-orange-500 object-cover shadow-sm">
-        <div>
-          <div class="font-bold leading-tight text-base text-slate-900 dark:text-white">
-            Aayush Kashyap
-          </div>
-          <span class="text-xs text-orange-600 dark:text-orange-400 font-medium tracking-wide">Khelo Bharat Sah-Sanyojak • ABVP Chapra</span>
-        </div>
-      </div>
-      
-      <div class="flex items-center gap-2">
-        <button id="themeToggle" class="p-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-colors" title="Toggle Theme">
-          <svg class="w-4 h-4 dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-          <svg class="w-4 h-4 hidden dark:block text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-        </button>
-        <!-- Hamburger Menu Button -->
-        <button id="menuOpenBtn" class="p-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-200 focus:outline-none" aria-label="Open Menu">
-          <svg class="w-6 h-6 fill-none stroke-current stroke-2" viewBox="0 0 24 24">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
-        </button>
+  <!-- Top Navbar -->
+  <div class="top-navbar">
+    <div class="nav-left">
+      <img src="1000083035.png" alt="Aayush Kashyap" class="nav-thumb" onerror="this.src='https://ui-avatars.com/api/?name=Aayush+Kashyap&background=f97316&color=fff'">
+      <div class="nav-text">
+        <h1>Aayush Kashyap</h1>
+        <p>Khelo Bharat Sah-Sanyojak • ABVP Chapra</p>
       </div>
     </div>
-  </nav>
-
-  <!-- Slide-Over Navigation Menu Drawer -->
-  <div id="sideMenu" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden">
-    <div class="fixed top-0 right-0 w-72 sm:w-80 h-full bg-white dark:bg-slate-900 shadow-2xl p-6 flex flex-col justify-between overflow-y-auto">
-      <div>
-        <div class="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-slate-800">
-          <div class="font-bold text-slate-900 dark:text-white text-base">नेविगेशन मेनू</div>
-          <button id="menuCloseBtn" class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-500 hover:text-black dark:hover:text-white">
-            <svg class="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-          </button>
-        </div>
-        
-        <div class="mt-6 space-y-2">
-          <a href="#home" class="menu-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-orange-50 dark:hover:bg-slate-800 font-semibold text-sm text-slate-800 dark:text-slate-200">
-            📌 मुख्य पृष्ठ (Home)
-          </a>
-          <a href="#about" class="menu-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-orange-50 dark:hover:bg-slate-800 font-semibold text-sm text-slate-800 dark:text-slate-200">
-            👤 मेरे बारे में (About Me)
-          </a>
-          <a href="#abvp-info" class="menu-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-orange-50 dark:hover:bg-slate-800 font-semibold text-sm text-slate-800 dark:text-slate-200">
-            🚩 ABVP को जानो (Know ABVP)
-          </a>
-          <a href="#ground-works" class="menu-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-orange-50 dark:hover:bg-slate-800 font-semibold text-sm text-slate-800 dark:text-slate-200">
-            📸 सक्रिय आंदोलन (Key Initiatives)
-          </a>
-          <a href="#reels-section" class="menu-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-orange-50 dark:hover:bg-slate-800 font-semibold text-sm text-slate-800 dark:text-slate-200">
-            🎬 इंस्टाग्राम रील्स (Instagram Reels)
-          </a>
-          <a href="#tweets-section" class="menu-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-orange-50 dark:hover:bg-slate-800 font-semibold text-sm text-slate-800 dark:text-slate-200">
-            🐦 एक्स अपडेट्स (Tweets on X)
-          </a>
-          <a href="#media-coverage" class="menu-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-orange-50 dark:hover:bg-slate-800 font-semibold text-sm text-slate-800 dark:text-slate-200">
-            📰 प्रेस एवं मीडिया (Press Reports)
-          </a>
-          <a href="#social-reach" class="menu-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-orange-50 dark:hover:bg-slate-800 font-semibold text-sm text-slate-800 dark:text-slate-200">
-            🌐 सोशल नेटवर्क (Social Hub)
-          </a>
-          <a href="#contact-us" class="menu-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-orange-50 dark:hover:bg-slate-800 font-semibold text-sm text-slate-800 dark:text-slate-200">
-            💬 संपर्क सूत्र (Contact Us)
-          </a>
-        </div>
-      </div>
-
-      <div class="pt-6 border-t border-slate-200 dark:border-slate-800 text-center">
-        <p class="text-xs text-slate-400 font-mono">@AayushKashyap03</p>
-        <p class="text-[11px] text-orange-600 font-hindi mt-1">"राष्ट्र प्रथम — सेवा, समर्पण और संगठन"</p>
-      </div>
+    <div class="nav-right">
+      <i class="fa-regular fa-moon"></i>
+      <i class="fa-solid fa-bars"></i>
     </div>
   </div>
 
-  <!-- Hero Banner -->
-  <section id="home" class="max-w-6xl mx-auto px-4 pt-4 pb-4">
-    <div class="rounded-3xl overflow-hidden shadow-2xl border border-orange-500/30 bg-black relative">
-      <img src="1000083022.png" alt="शिक्षित युवा सशक्त भारत - Aayush Kashyap ABVP" class="w-full h-auto object-cover max-h-[500px]">
+  <!-- Content Box -->
+  <div class="content-box">
+    
+    <!-- Hero Poster / Banner -->
+    <div class="hero-banner">
+      <img src="1000083035.png" alt="Aayush Kashyap Banner" onerror="this.style.display='none'">
     </div>
-  </section>
 
-  <!-- INTRODUCTION CARD -->
-  <section id="about" class="max-w-4xl mx-auto px-4 py-4">
-    <div class="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 shadow-xl border border-slate-200 dark:border-slate-800">
-      
-      <!-- Top Profile Row -->
-      <div class="flex items-center gap-4">
-        <img src="1000083035.png" alt="Aayush Kashyap" class="w-20 h-20 sm:w-24 sm:h-24 rounded-full border-4 border-orange-500 object-cover shadow-md">
-        <div>
-          <h1 class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white">
-            Aayush Kashyap
-          </h1>
-          <p class="text-orange-600 dark:text-orange-400 font-semibold text-xs sm:text-sm">
-            Student Leader | Social Activist | ABVP Activist
-          </p>
-          <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-            Khelo Bharat Sah-Sanyojak (Nagar Unit) • Chapra, Saran (Bihar)
-          </p>
-        </div>
-      </div>
-
-      <!-- Introduction Content -->
-      <div class="mt-5 text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
-        
-        <!-- Preview Text -->
-        <p id="bioShort" class="line-clamp-2">
-          Born on 3 August 2010 in Koini village, Manjha Block, Gopalganj, Bihar, I am a young student leader driven by a vision of social transformation, national development, and youth empowerment. My journey is rooted in the values of discipline, dedication, patriotism, and public service.
-        </p>
-
-        <!-- Full Bio Text -->
-        <div id="bioFull" style="display: none;" class="mt-3 space-y-3.5 pt-3 border-t border-slate-100 dark:border-slate-800">
-          <p>
-            Born on 3 August 2010 in Koini village, Manjha Block, Gopalganj, Bihar, I am a young student leader driven by a vision of social transformation, national development, and youth empowerment. My journey is rooted in the values of discipline, dedication, patriotism, and public service.
-          </p>
-          <p>
-            I completed my secondary education under the CBSE curriculum from Bhagwat Vidyapeeth School, Chhapra, and am currently pursuing my Class 11 education under the CBSE Board.
-          </p>
-          <p>
-            I am presently serving as the <strong>Khelo Bharat Sah-Sanyojak in the ABVP Nagar Unit</strong>, where I am associated with initiatives focused on sports, student engagement, leadership development, and youth participation. My involvement with the Akhil Bharatiya Vidyarthi Parishad (ABVP) reflects my commitment to student welfare, organizational responsibility, and constructive social engagement.
-          </p>
-          <p>
-            Inspired by the nationalist ideology of the Rashtriya Swayamsevak Sangh (RSS), I believe in <strong>राष्ट्र प्रथम</strong>, cultural nationalism, social harmony, and the preservation of India's rich civilizational heritage. I take pride in my Hindu identity and remain committed to the ideals of service, unity, and national integrity.
-          </p>
-          <p>
-            I firmly believe that the youth are not merely the leaders of tomorrow but also active contributors to the progress of today. With an optimistic outlook, a commitment to grassroots engagement, and a strong sense of responsibility, I aspire to work towards building an empowered youth community and a progressive, self-reliant, and developed India.
-          </p>
-          <div class="p-3.5 rounded-xl bg-orange-50 dark:bg-orange-950/40 border border-orange-200 dark:border-orange-800/60 font-hindi text-sm font-semibold text-orange-900 dark:text-orange-200">
-            "राष्ट्र प्रथम — सेवा, समर्पण और संगठन ही मेरा संकल्प है।"
-          </div>
-        </div>
-
-        <!-- See More Button -->
-        <button id="seeMoreBtn" class="mt-2.5 text-xs font-bold text-orange-600 dark:text-orange-400 hover:text-orange-700 flex items-center gap-1 focus:outline-none">
-          <span id="seeMoreText">See More / पूरा परिचय पढ़ें</span>
-          <span id="seeMoreArrow">▼</span>
-        </button>
-      </div>
-
-      <!-- Quick Details Box -->
-      <div class="mt-5 p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800 text-xs sm:text-sm space-y-2">
-        <div class="flex justify-between items-center">
-          <span class="text-slate-500 dark:text-slate-400 font-medium">Organization:</span>
-          <span class="font-bold text-slate-800 dark:text-slate-200">Akhil Bhartiya Vidyarthi Parishad (ABVP)</span>
-        </div>
-        <div class="flex justify-between items-center">
-          <span class="text-slate-500 dark:text-slate-400 font-medium">Designation:</span>
-          <span class="font-bold text-slate-800 dark:text-slate-200">सह-संयोजक (खेलो भारत, नगर इकाई)</span>
-        </div>
-        <div class="flex justify-between items-center">
-          <span class="text-slate-500 dark:text-slate-400 font-medium">Education:</span>
-          <span class="font-bold text-slate-800 dark:text-slate-200">Class 11 (CBSE) • Bhagwat Vidyapeeth Alumnus</span>
+    <!-- Profile Intro Card -->
+    <div class="profile-card">
+      <div class="profile-meta">
+        <img src="1000083035.png" alt="Aayush Kashyap" class="avatar-large" onerror="this.src='https://ui-avatars.com/api/?name=Aayush+Kashyap&background=f97316&color=fff'">
+        <div class="profile-titles">
+          <h2>Aayush Kashyap</h2>
+          <div class="badge-primary">Student Leader | Social Activist | ABVP Activist</div>
+          <div class="sub-role">Khelo Bharat Sah-Sanyojak (Nagar) • Chapra, Bihar</div>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- 'ABVP KO JANO' PAGE SECTION -->
-  <section id="abvp-info" class="max-w-4xl mx-auto px-4 py-8">
-    <div class="text-center mb-6">
-      <div class="inline-block px-3.5 py-1 bg-orange-100 dark:bg-orange-950/60 text-orange-600 text-xs font-bold rounded-full mb-2 tracking-wider">
-        राष्ट्र-पुनर्निर्माण एवं छात्र चेतना
+    <!-- Social / Official Links -->
+    <div class="links-card">
+      <div class="card-title">
+        <i class="fa-solid fa-share-nodes" style="color: var(--primary);"></i> Connect With Me
       </div>
-      <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white font-hindi">
-        अखिल भारतीय विद्यार्थी परिषद (ABVP) को जानो
-      </h2>
-      <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 font-hindi">
-        विश्व का सबसे बड़ा छात्र आंदोलन — ज्ञान, शील और एकता का वैचारिक अधिष्ठान
-      </p>
-    </div>
-
-    <div class="space-y-4">
-      
-      <!-- 1. History -->
-      <div class="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-md">
-        <div class="flex items-center gap-3 mb-2">
-          <div class="w-10 h-10 rounded-xl bg-orange-500/10 text-orange-600 flex items-center justify-center font-bold text-lg">
-            📜
-          </div>
-          <div>
-            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white font-hindi">1. गौरवशाली इतिहास (History of ABVP)</h3>
-            <span class="text-xs text-orange-600 font-medium">स्थापना: 9 जुलाई 1949</span>
-          </div>
-        </div>
-        
-        <p id="histPrev" class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-hindi line-clamp-4">
-          अखिल भारतीय विद्यार्थी परिषद की स्थापना 9 जुलाई 1949 को हुई थी। इसका उद्देश्य देश के विद्यार्थियों को केवल राजनीतिक नारों तक सीमित न रखकर 'राष्ट्र-पुनर्निर्माण' के महान कार्य से जोड़ना था। प्रोफेसर यशवंतराव केलकर जी ने संगठन को एक रचनात्मक, वैचारिक और अनुशासित दिशा प्रदान की, जिसके चलते वे परिषद के सच्चे शिल्पकार कहलाए। स्वतंत्रता के बाद जब देश वैचारिक संक्रमण के दौर से गुजर रहा था, तब अभाविप ने परिसरों में भारतीय संस्कृति और राष्ट्रीय अस्मिता की अलख जगाई। आज यह भारत के प्रत्येक कोने में विस्तृत होकर विश्व का सबसे विशाल राष्ट्रवादी छात्र आंदोलन बन चुका है।
-        </p>
-
-        <div id="histFull" style="display: none;" class="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-hindi space-y-3 pt-3 border-t border-slate-100 dark:border-slate-800">
-          <p>
-            अखिल भारतीय विद्यार्थी परिषद की स्थापना 9 जुलाई 1949 को हुई थी। इसका उद्देश्य देश के विद्यार्थियों को केवल राजनीतिक नारों तक सीमित न रखकर 'राष्ट्र-पुनर्निर्माण' के महान कार्य से जोड़ना था। प्रोफेसर यशवंतराव केलकर जी ने संगठन को एक रचनात्मक, वैचारिक और अनुशासित दिशा प्रदान की, जिसके चलते वे परिषद के सच्चे शिल्पकार कहलाए। स्वतंत्रता के बाद जब देश वैचारिक संक्रमण के दौर से गुजर रहा था, तब अभाविप ने परिसरों में भारतीय संस्कृति और राष्ट्रीय अस्मिता की अलख जगाई।
-          </p>
-          <p>
-            1970 के दशक में आपातकाल (Emergency) के विरोध में लोकनायक जयप्रकाश नारायण जी के संपूर्ण क्रांति आंदोलन में अभाविप के युवा कार्यकर्ताओं ने अग्रणी भूमिका निभाई और लोकतंत्र की पुनर्स्थापना के लिए जेल गए। परिषद ने समय-समय पर बांग्लादेशी घुसपैठ, शिक्षा के व्यावसायीकरण और अलगाववादी ताकतों के विरुद्ध देशव्यापी ऐतिहासिक चेतना यात्राएं निकाली हैं।
-          </p>
-        </div>
-
-        <button onclick="toggleCard('histPrev', 'histFull', this)" class="mt-3 text-xs font-bold text-orange-600 dark:text-orange-400 hover:text-orange-700 focus:outline-none flex items-center gap-1">
-          <span>Know More / विस्तार से पढ़ें</span> <span>▼</span>
-        </button>
-      </div>
-
-      <!-- 2. Ideology -->
-      <div class="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-md">
-        <div class="flex items-center gap-3 mb-2">
-          <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-600 flex items-center justify-center font-bold text-lg">
-            🧭
-          </div>
-          <div>
-            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white font-hindi">2. मूल विचार एवं ध्येय (Core Ideology)</h3>
-            <span class="text-xs text-blue-600 font-medium">ज्ञान • शील • एकता</span>
-          </div>
-        </div>
-
-        <p id="ideoPrev" class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-hindi line-clamp-4">
-          ABVP का आधारभूत दर्शन है कि <strong>"छात्र कल का नहीं, आज का नागरिक है।"</strong> परिषद विद्यार्थियों को केवल भविष्य का नागरिक न मानकर वर्तमान में ही राष्ट्रहित के दायित्वों से जोड़ती है। इसका ध्येय वाक्य 'ज्ञान, शील, एकता' है, जो चरित्र निर्माण और शैक्षणिक उत्कृष्टता को रेखांकित करता है। संगठन दलगत राजनीति से पूरी तरह स्वतंत्र होकर सांस्कृतिक राष्ट्रवाद, सामाजिक समरसता और अखंड भारत की भावना में विश्वास रखता है। स्वामी विवेकानंद जी के ओजस्वी विचार और राष्ट्रभक्ति परिषद के कार्यकर्ताओं के जीवन का मुख्य पाथेय हैं।
-        </p>
-
-        <div id="ideoFull" style="display: none;" class="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-hindi space-y-3 pt-3 border-t border-slate-100 dark:border-slate-800">
-          <p>
-            ABVP का आधारभूत दर्शन है कि <strong>"छात्र कल का नहीं, आज का नागरिक है।"</strong> परिषद विद्यार्थियों को केवल भविष्य का नागरिक न मानकर वर्तमान में ही राष्ट्रहित के दायित्वों से जोड़ती है। इसका ध्येय वाक्य 'ज्ञान, शील, एकता' है, जो चरित्र निर्माण और शैक्षणिक उत्कृष्टता को रेखांकित करता है।
-          </p>
-          <p>
-            परिषद का मानना है कि शिक्षा केवल आजीविका का साधन नहीं, बल्कि संस्कारों और राष्ट्रीय चरित्र का आधार होनी चाहिए। यह शिक्षण संस्थानों में जातिवाद, क्षेत्रवाद और तुष्टीकरण के संकीर्ण दायरों को तोड़कर एकात्म सामाजिक समरसता स्थापित करने के लिए निरंतर कार्य करती है।
-          </p>
-        </div>
-
-        <button onclick="toggleCard('ideoPrev', 'ideoFull', this)" class="mt-3 text-xs font-bold text-orange-600 dark:text-orange-400 hover:text-orange-700 focus:outline-none flex items-center gap-1">
-          <span>Know More / विस्तार से पढ़ें</span> <span>▼</span>
-        </button>
-      </div>
-
-      <!-- 3. ABVP Kya Karti Hai? -->
-      <div class="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-md">
-        <div class="flex items-center gap-3 mb-2">
-          <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-600 flex items-center justify-center font-bold text-lg">
-            ⚙️
-          </div>
-          <div>
-            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white font-hindi">3. ABVP क्या करती है? (What ABVP Does)</h3>
-            <span class="text-xs text-purple-600 font-medium">छात्र नेतृत्व • परिसर सशक्तिकरण • सामाजिक चेतना</span>
-          </div>
-        </div>
-
-        <p id="kartiPrev" class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-hindi line-clamp-4">
-          अभाविप शैक्षणिक परिसरों में विद्यार्थियों के अधिकारों, पारदर्शी परीक्षा प्रणाली, उचित फीस संरचना और पुस्तकालय-छात्रावास जैसी मूलभूत सुविधाओं के लिए 24x7 तत्पर रहती है। यह केवल विरोध प्रदर्शनों तक सीमित न रहकर युवाओं के व्यक्तित्व विकास के लिए खेल, कला, साहित्य और विचार गोष्ठियों का सतत आयोजन करती है। छात्राओं की सुरक्षा और स्वावलंबन के लिए 'मिशन साहसी' जैसे राष्ट्रव्यापी आत्मरक्षा प्रशिक्षण चलाए जाते हैं। साथ ही प्राकृतिक आपदाओं, रक्तदान शिविरों और स्वच्छता अभियानों में समाज सेवा का अग्रदूत बनकर कार्य करती है।
-        </p>
-
-        <div id="kartiFull" style="display: none;" class="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-hindi space-y-3 pt-3 border-t border-slate-100 dark:border-slate-800">
-          <p>
-            अभाविप शैक्षणिक परिसरों में विद्यार्थियों के अधिकारों, पारदर्शी परीक्षा प्रणाली, उचित फीस संरचना और पुस्तकालय-छात्रावास जैसी मूलभूत सुविधाओं के लिए 24x7 तत्पर रहती है। यह केवल विरोध प्रदर्शनों तक सीमित न रहकर युवाओं के व्यक्तित्व विकास के लिए खेल, कला, साहित्य और विचार गोष्ठियों का सतत आयोजन करती है।
-          </p>
-          <p>
-            परिषद विभिन्न शैक्षणिक आयामों के माध्यम से विशेषज्ञ मंच उपलब्ध कराती है:
-            <br>• <strong>खेलो भारत:</strong> पारंपरिक एवं आधुनिक खेलों से युवाओं का शारीरिक व मानसिक विकास।
-            <br>• <strong>राष्ट्रीय कला मंच (RKM):</strong> सांस्कृतिक प्रतिभाओं को मंच और मंच कला को बढ़ावा।
-            <br>• <strong>थिंक इंडिया (Think India):</strong> IITs, IIMs और NLUs के मेधावियों को राष्ट्रीय नीति निर्धारण से जोड़ना।
-            <br>• <strong>मेडीविज़न एवं एग्रीविज़न:</strong> मेडिकल और कृषि क्षेत्र के छात्रों की अकादमिक समस्याओं का समाधान।
-          </p>
-        </div>
-
-        <button onclick="toggleCard('kartiPrev', 'kartiFull', this)" class="mt-3 text-xs font-bold text-orange-600 dark:text-orange-400 hover:text-orange-700 focus:outline-none flex items-center gap-1">
-          <span>Know More / विस्तार से पढ़ें</span> <span>▼</span>
-        </button>
-      </div>
-
-      <!-- 4. Key Works & Successes -->
-      <div class="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-md">
-        <div class="flex items-center gap-3 mb-2">
-          <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center font-bold text-lg">
-            🏆
-          </div>
-          <div>
-            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white font-hindi">4. प्रमुख सफल कार्य एवं आयाम (Successful Initiatives)</h3>
-            <span class="text-xs text-emerald-600 font-medium">ऐतिहासिक उपलब्धियां व जमीनी परिणाम</span>
-          </div>
-        </div>
-
-        <p id="succPrev" class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-hindi line-clamp-4">
-          छपरा के जयप्रकाश विश्वविद्यालय (JPU) में सत्र विलंब को दूर कराने, त्रुटिपूर्ण मार्कशीटों में त्वरित सुधार और अवैध फीस वसूली पर रोक लगाने में अभाविप का सतत जमीनी संघर्ष निर्णायक साबित हुआ है। पूर्वोत्तर राज्यों के युवाओं को देश के अन्य भागों से जोड़ने के लिए 1966 से संचालित SEIL (Students' Experience in Inter-state Living) प्रकल्प राष्ट्रीय एकता की अद्वितीय मिसाल है। छपरा के प्रसिद्ध राजेंद्र सरोवर के जीर्णोद्धार हेतु युवाओं का श्रमदान अभियान स्वच्छता का रोल मॉडल बना है। 'खेलो भारत' के माध्यम से जिले और प्रदेश स्तर पर हजारों छात्र खिलाड़ियों को मंच मिला है।
-        </p>
-
-        <div id="succFull" style="display: none;" class="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-hindi space-y-3 pt-3 border-t border-slate-100 dark:border-slate-800">
-          <p>
-            छपरा के जयप्रकाश विश्वविद्यालय (JPU) में सत्र विलंब को दूर कराने, त्रुटिपूर्ण मार्कशीटों में त्वरित सुधार और अवैध फीस वसूली पर रोक लगाने में अभाविप का सतत जमीनी संघर्ष निर्णायक साबित हुआ है। पूर्वोत्तर राज्यों के युवाओं को देश के अन्य भागों से जोड़ने के लिए 1966 से संचालित SEIL प्रकल्प राष्ट्रीय एकता की अद्वितीय मिसाल है।
-          </p>
-          <p>
-            इसके अतिरिक्त, राष्ट्रीय स्तर पर केंद्रीय विश्वविद्यालयों में प्रवेश परीक्षाओं में पारदर्शिता, नई शिक्षा नीति (NEP) के सकारात्मक क्रियान्वयन हेतु छात्र सुझाव और समय-समय पर बाढ़-सूखा जैसी प्राकृतिक आपदाओं में 'छात्र सेवा दल' बनाकर राहत कार्य पहुंचाना परिषद की पहचान रही है।
-          </p>
-        </div>
-
-        <button onclick="toggleCard('succPrev', 'succFull', this)" class="mt-3 text-xs font-bold text-orange-600 dark:text-orange-400 hover:text-orange-700 focus:outline-none flex items-center gap-1">
-          <span>Know More / विस्तार से पढ़ें</span> <span>▼</span>
-        </button>
-      </div>
-
-    </div>
-
-    <!-- BUTTON: SEE MORE ABOUT ABVP -->
-    <div class="mt-6 text-center">
-      <button id="toggleJoinBtn" onclick="toggleJoinSection()" class="px-6 py-3 rounded-full bg-gradient-to-r from-orange-600 to-amber-600 text-white font-bold text-xs sm:text-sm hover:from-orange-700 hover:to-amber-700 shadow-lg hover:shadow-orange-500/20 transition-all flex items-center gap-2 mx-auto">
-        <span>See More About ABVP (परिषद से कैसे जुड़ें?)</span>
-        <span id="joinBtnArrow">▼</span>
-      </button>
-    </div>
-
-    <!-- HIDDEN TOPIC: ABVP SE KAISE JUDE -->
-    <div id="joinAbvpSection" style="display: none;" class="mt-6 bg-gradient-to-br from-amber-50 to-orange-50 dark:from-slate-900 dark:to-slate-800/80 rounded-3xl p-6 sm:p-8 border-2 border-orange-500/40 shadow-xl transition-all">
-      <div class="flex items-center gap-3.5 mb-4">
-        <div class="w-12 h-12 rounded-2xl bg-orange-600 text-white flex items-center justify-center font-bold text-xl shadow-md">
-          🤝
-        </div>
-        <div>
-          <h3 class="text-lg sm:text-xl font-extrabold text-slate-900 dark:text-white font-hindi">
-            ABVP से कैसे जुड़ें? (सदस्यता एवं सहभागिता)
-          </h3>
-          <p class="text-xs text-orange-700 dark:text-orange-400 font-medium">
-            राष्ट्र निर्माण और छात्र कल्याण के इस महापर्व में सहभागी बनने की पूरी प्रक्रिया
-          </p>
-        </div>
-      </div>
-
-      <div class="space-y-4 text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-hindi leading-relaxed">
-        <div class="p-4 rounded-xl bg-white dark:bg-slate-800 border border-orange-200 dark:border-slate-700 shadow-sm">
-          <h4 class="font-bold text-slate-900 dark:text-white text-sm mb-1">1. कॉलेज / नगर इकाई से सीधा संपर्क (Ground Connect):</h4>
-          <p>
-            यदि आप छपरा या बिहार के किसी भी कॉलेज/स्कूल (जैसे राजेंद्र कॉलेज, जगदम कॉलेज, राम जयपाल कॉलेज, JPU कैंपस) में हैं, तो आप सीधे एबीवीपी के स्थानीय छात्र प्रमुखों या नगर इकाई के कार्यकर्ताओं से संपर्क कर सकते हैं।
-          </p>
-        </div>
-
-        <div class="p-4 rounded-xl bg-white dark:bg-slate-800 border border-orange-200 dark:border-slate-700 shadow-sm">
-          <h4 class="font-bold text-slate-900 dark:text-white text-sm mb-1">2. वार्षिक सदस्यता अभियान (Membership Drive):</h4>
-          <p>
-            प्रत्येक वर्ष जुलाई-अगस्त के महीनों में अभाविप द्वारा देशव्यापी सदस्यता अभियान चलाया जाता है। इसके तहत परिसरों में सदस्यता हेल्पडेस्क लगाई जाती हैं जहां न्यूनतम शुल्क के साथ रसीद प्राप्त कर आप आधिकारिक सदस्य बन सकते हैं।
-          </p>
-        </div>
-
-        <div class="p-4 rounded-xl bg-white dark:bg-slate-800 border border-orange-200 dark:border-slate-700 shadow-sm">
-          <h4 class="font-bold text-slate-900 dark:text-white text-sm mb-1">3. डिजिटल सदस्यता एवं पोर्टल (Online Join):</h4>
-          <p>
-            आप अभाविप की राष्ट्रीय वेबसाइट <strong>abvp.org</strong> पर जाकर ऑनलाइन 'Join ABVP' विकल्प चुन सकते हैं, जहां अपना राज्य, जिला, कॉलेज और रुचि का आयाम (खेल, कला, सामाजिक सेवा आदि) चुनकर सदस्य बन सकते हैं।
-          </p>
-        </div>
-
-        <div class="p-4 rounded-xl bg-white dark:bg-slate-800 border border-orange-200 dark:border-slate-700 shadow-sm">
-          <h4 class="font-bold text-slate-900 dark:text-white text-sm mb-1">4. खेलो भारत एवं विशिष्ट आयामों में सहभागिता:</h4>
-          <p>
-            यदि आप खेल, संस्कृति या अध्ययन में रुचि रखते हैं, तो 'खेलो भारत' टूर्नामेंट्स, विचार बैठकों अथवा 'मिशन साहसी' अभियानों में सीधे वॉलंटियर के रूप में जुड़कर संगठन के सक्रिय कार्यकर्ता बन सकते हैं।
-          </p>
-        </div>
-
-        <div class="p-3.5 rounded-xl bg-orange-100/70 dark:bg-orange-950/50 border border-orange-300 dark:border-orange-800 font-semibold text-center text-orange-900 dark:text-orange-200">
-          छपरा नगर इकाई में जुड़ने अथवा किसी भी समस्या के समाधान के लिए सीधे हमारे <a href="#contact-us" class="underline text-orange-700 dark:text-orange-300 font-bold">संपर्क सूत्र (Contact Desk)</a> पर संदेश भेजें!
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FRONTLINE ACTIVISM SLIDER (NOW WITH ALL 9 SLIDES INCLUDING RAJENDRA COLLEGE CLEANUP DRIVE) -->
-  <section id="ground-works" class="max-w-4xl mx-auto px-4 py-8">
-    <div class="text-center mb-6">
-      <h2 class="text-xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">
-        Frontline Activism & Key Initiatives
-      </h2>
-      <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
-        Photographs from campus rallies, student rights protests, and social welfare drives
-      </p>
-    </div>
-
-    <div class="relative bg-black rounded-3xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800">
-      <div id="sliderWrapper" class="relative w-full h-[380px] sm:h-[490px]">
-        
-        <!-- Slide 1: 1000083005.jpg -->
-        <div class="work-slide absolute inset-0 opacity-100 transition-opacity duration-700 ease-in-out">
-          <img src="1000083005.jpg" alt="राम जयपाल कॉलेज पुतला दहन" class="w-full h-full object-contain bg-slate-950">
-          <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-4 sm:p-6 text-white">
-            <span class="px-2 py-0.5 bg-red-600 text-[10px] font-bold uppercase rounded">विरोध प्रदर्शन</span>
-            <p class="font-bold text-xs sm:text-base mt-1.5 font-hindi leading-snug">
-              राम जयपाल कॉलेज में इंटर्नशिप के नाम पर कथित अवैध वसूली के विरोध में ABVP छपरा के कार्यकर्ताओं के साथ पुतला दहन।
-            </p>
-          </div>
-        </div>
-
-        <!-- Slide 2: 1000083004.jpg -->
-        <div class="work-slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out">
-          <img src="1000083004.jpg" alt="राम जयपाल कॉलेज विरोध प्रदर्शन" class="w-full h-full object-contain bg-slate-950">
-          <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-4 sm:p-6 text-white">
-            <span class="px-2 py-0.5 bg-orange-600 text-[10px] font-bold uppercase rounded">छात्रहित आंदोलन</span>
-            <p class="font-bold text-xs sm:text-base mt-1.5 font-hindi leading-snug">
-              छात्रहितों से जुड़े मुद्दों को लेकर राम जयपाल कॉलेज में विरोध प्रदर्शन में ABVP छपरा के कार्यकर्ताओं के साथ सहभागिता।
-            </p>
-          </div>
-        </div>
-
-        <!-- Slide 3: 1000083003.jpg -->
-        <div class="work-slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out">
-          <img src="1000083003.jpg" alt="राजेंद्र सरोवर स्वच्छता अभियान" class="w-full h-full object-contain bg-slate-950">
-          <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-4 sm:p-6 text-white">
-            <span class="px-2 py-0.5 bg-green-600 text-[10px] font-bold uppercase rounded">स्वच्छता अभियान</span>
-            <p class="font-bold text-xs sm:text-base mt-1.5 font-hindi leading-snug">
-              छपरा के प्रसिद्ध राजेंद्र सरोवर में स्वच्छता अभियान के तहत श्रमदान कर स्वच्छता और पर्यावरण संरक्षण का संदेश।
-            </p>
-          </div>
-        </div>
-
-        <!-- Slide 4: 1000083002.jpg -->
-        <div class="work-slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out">
-          <img src="1000083002.jpg" alt="शिक्षक दिवस जय प्रकाश विश्वविद्यालय" class="w-full h-full object-contain bg-slate-950">
-          <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-4 sm:p-6 text-white">
-            <span class="px-2 py-0.5 bg-blue-600 text-[10px] font-bold uppercase rounded">शिक्षक सम्मान</span>
-            <p class="font-bold text-xs sm:text-base mt-1.5 font-hindi leading-snug">
-              शिक्षक दिवस के अवसर पर जय प्रकाश विश्वविद्यालय, छपरा में शिक्षक-शिक्षिकाओं को गुलाब का फूल भेंट कर सम्मान एवं शुभकामनाएँ।
-            </p>
-          </div>
-        </div>
-
-        <!-- Slide 5: 1000086142.png (NEW: RAJENDRA COLLEGE CLEANUP DRIVE) -->
-        <div class="work-slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out">
-          <img src="1000086142.png" alt="राजेंद्र कॉलेज सफाई अभियान" class="w-full h-full object-contain bg-slate-950">
-          <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-4 sm:p-6 text-white">
-            <span class="px-2 py-0.5 bg-green-600 text-[10px] font-bold uppercase rounded">स्वच्छता अभियान</span>
-            <p class="font-bold text-xs sm:text-base mt-1.5 font-hindi leading-snug">
-              स्वच्छता दिवस के उपलक्ष्य पर राजेंद्र कॉलेज में चला सफाई अभियान।
-            </p>
-          </div>
-        </div>
-
-        <!-- Slide 6: 1000084568.jpg (NEW: RAJENDRA COLLEGE CLEANUP DRIVE) -->
-        <div class="work-slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out">
-          <img src="1000084568.jpg" alt="ABVP नगर इकाई स्वच्छता दिवस" class="w-full h-full object-contain bg-slate-950">
-          <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-4 sm:p-6 text-white">
-            <span class="px-2 py-0.5 bg-green-600 text-[10px] font-bold uppercase rounded">स्वच्छता अभियान</span>
-            <p class="font-bold text-xs sm:text-base mt-1.5 font-hindi leading-snug">
-              स्वच्छता दिवस के उपलक्ष्य पर राजेंद्र कॉलेज में चला सफाई अभियान — ABVP नगर इकाई कार्यकर्ता।
-            </p>
-          </div>
-        </div>
-
-        <!-- Slide 7: 1000084574.jpg (NEW: RAJENDRA COLLEGE CLEANUP DRIVE) -->
-        <div class="work-slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out">
-          <img src="1000084574.jpg" alt="राजेंद्र कॉलेज परिसर स्वच्छता" class="w-full h-full object-contain bg-slate-950">
-          <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-4 sm:p-6 text-white">
-            <span class="px-2 py-0.5 bg-green-600 text-[10px] font-bold uppercase rounded">स्वच्छता अभियान</span>
-            <p class="font-bold text-xs sm:text-base mt-1.5 font-hindi leading-snug">
-              स्वच्छता दिवस के उपलक्ष्य पर राजेंद्र कॉलेज में चला सफाई अभियान।
-            </p>
-          </div>
-        </div>
-
-        <!-- Slide 8: 1000084577.jpg (NEW: RAJENDRA COLLEGE CLEANUP DRIVE) -->
-        <div class="work-slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out">
-          <img src="1000084577.jpg" alt="डॉ राजेंद्र प्रसाद प्रतिमा स्थल सफाई" class="w-full h-full object-contain bg-slate-950">
-          <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-4 sm:p-6 text-white">
-            <span class="px-2 py-0.5 bg-green-600 text-[10px] font-bold uppercase rounded">स्वच्छता अभियान</span>
-            <p class="font-bold text-xs sm:text-base mt-1.5 font-hindi leading-snug">
-              स्वच्छता दिवस के उपलक्ष्य पर राजेंद्र कॉलेज में चला सफाई अभियान — प्रतिमा स्थल एवं परिसर स्वच्छता।
-            </p>
-          </div>
-        </div>
-
-        <!-- Slide 9: 1000086332.jpg (NEW: RAJENDRA COLLEGE CLEANUP DRIVE) -->
-        <div class="work-slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out">
-          <img src="1000086332.jpg" alt="पौधरोपण व पर्यावरण संरक्षण" class="w-full h-full object-contain bg-slate-950">
-          <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-4 sm:p-6 text-white">
-            <span class="px-2 py-0.5 bg-emerald-600 text-[10px] font-bold uppercase rounded">पर्यावरण एवं स्वच्छता</span>
-            <p class="font-bold text-xs sm:text-base mt-1.5 font-hindi leading-snug">
-              स्वच्छता दिवस के उपलक्ष्य पर राजेंद्र कॉलेज में चला सफाई अभियान — पर्यावरण संवर्धन एवं पौधरोपण।
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Controls -->
-      <button id="sliderPrevBtn" class="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/20 hover:bg-white/40 text-white flex items-center justify-center backdrop-blur-sm z-10 focus:outline-none">
-        &#10094;
-      </button>
-      <button id="sliderNextBtn" class="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/20 hover:bg-white/40 text-white flex items-center justify-center backdrop-blur-sm z-10 focus:outline-none">
-        &#10095;
-      </button>
-
-      <!-- Dots Indicator (Auto-generated in JS) -->
-      <div class="absolute bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10" id="dotsContainer"></div>
-    </div>
-  </section>
-
-  <!-- TAB 1: AUTO-SYNC INSTAGRAM REELS (BEHOLD WIDGET) -->
-  <section id="reels-section" class="max-w-5xl mx-auto px-4 py-8">
-    <div class="mb-5">
-      <div class="flex items-center gap-2">
-        <div class="p-1.5 rounded-lg bg-pink-500/10 text-pink-600 dark:text-pink-400 font-bold">
-          🎬
-        </div>
-        <h2 class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white">Latest Reels & Ground Feed</h2>
-      </div>
-      <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Live synchronized from official Instagram account @AayushKashyap03</p>
-    </div>
-
-        <!-- Behold Instagram Widget Container -->
-    <div class="rounded-3xl p-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-lg min-h-[300px]">
-      <behold-widget feed-id="1WJFPUV24g1dKsCW4nrG"></behold-widget>
-      <script>
-        (() => {
-          if(window.__bhldScript)return;window.__bhldScript=true;
-          const d=document,s=d.createElement("script");s.type="module";
-          s.src="https://w.behold.so/widget.js";setTimeout(()=>{d.head.append(s);},0);
-        })();
-      </script>
-    </div>
-
-  <!-- TAB 2: RECENT REAL TWEETS SLIDER -->
-  <section id="tweets-section" class="max-w-5xl mx-auto px-4 py-8">
-    <div class="flex items-center justify-between mb-4">
-      <div>
-        <div class="flex items-center gap-2">
-          <div class="p-1.5 rounded-lg bg-black text-white dark:bg-white dark:text-black">
-            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          </div>
-          <h2 class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white">Official Dispatches & Tweets</h2>
-        </div>
-        <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Live authentic statements via @AayushKashyap03</p>
-      </div>
-      <div class="flex gap-2">
-        <button onclick="scrollTweets(-330)" class="p-2 rounded-full border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800">
-          &#10094;
-        </button>
-        <button onclick="scrollTweets(330)" class="p-2 rounded-full border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800">
-          &#10095;
-        </button>
-      </div>
-    </div>
-
-    <!-- Horizontal Tweets Slider -->
-    <div id="tweetsContainer" class="flex gap-4 overflow-x-auto no-scrollbar scroll-smooth py-2">
-      
-      <!-- Tweet 1 (राजेन्द्र सरोवर सफाई) -->
-      <a href="https://x.com/Aayushkashyap03/status/2094004308866154755" target="_blank" rel="noopener noreferrer" class="flex-none w-80 sm:w-88 p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-md hover:border-black dark:hover:border-slate-500 hover:-translate-y-1 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="flex items-center justify-between mb-3">
-            <div class="flex items-center gap-2.5">
-              <img src="1000083035.png" class="w-9 h-9 rounded-full object-cover border border-orange-500">
-              <div>
-                <div class="font-bold text-xs text-slate-900 dark:text-white">Aayush Kashyap</div>
-                <span class="text-[11px] text-slate-400 font-mono">@AayushKashyap03 • 30 Aug</span>
-              </div>
-            </div>
-            <svg class="w-4 h-4 fill-current text-slate-400 group-hover:text-black dark:group-hover:text-white transition-colors" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          </div>
-          <p class="text-xs sm:text-sm font-hindi leading-relaxed text-slate-700 dark:text-slate-200">
-            प्रशासन की सुस्ती के बीच छपरा के ABVP के कार्यकर्ताओं ने ऐतिहासिक राजेंद्र सरोवर की सफाई का जिम्मा खुद उठाया। जब नीयत साफ हो, तो बदलाव मुमकिन है—धरोहरों को बचाना हम सबकी जिम्मेदारी है। 👏
-          </p>
-          <div class="mt-2.5 flex flex-wrap gap-1 text-[11px] text-blue-600 dark:text-blue-400 font-medium">
-            <span>#ABVP</span> <span>#अभाविप</span> <span>#SFD</span> <span>#Chhapra</span> <span>#YouthPower</span> <span>#SwachhBharatAbhiyan</span>
-          </div>
-        </div>
-        <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
-          <span>Click to view original on X</span>
-          <span class="text-blue-500 font-semibold group-hover:underline">Open Tweet ↗</span>
-        </div>
-      </a>
-
-      <!-- Tweet 2 (सोशल मीडिया बैठक) -->
-      <a href="https://x.com/Aayushkashyap03/status/2091978783767363870" target="_blank" rel="noopener noreferrer" class="flex-none w-80 sm:w-88 p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-md hover:border-black dark:hover:border-slate-500 hover:-translate-y-1 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="flex items-center justify-between mb-3">
-            <div class="flex items-center gap-2.5">
-              <img src="1000083035.png" class="w-9 h-9 rounded-full object-cover border border-orange-500">
-              <div>
-                <div class="font-bold text-xs text-slate-900 dark:text-white">Aayush Kashyap</div>
-                <span class="text-[11px] text-slate-400 font-mono">@AayushKashyap03 • 25 Aug</span>
-              </div>
-            </div>
-            <svg class="w-4 h-4 fill-current text-slate-400 group-hover:text-black dark:group-hover:text-white transition-colors" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          </div>
-          <p class="text-xs sm:text-sm font-hindi leading-relaxed text-slate-700 dark:text-slate-200">
-            आज छपरा जिला अतिथि गृह में <span class="text-blue-500">@abvpchhapra</span> जिला सोशल मीडिया की महत्वपूर्ण बैठक संपन्न हुई। बैठक में प्रांत सोशल मीडिया संयोजक <span class="text-blue-500">@Talk_Priyanshu</span> जी भी उपस्थित थे। जिला एवं नगर इकाई के कार्यकर्ताओं के साथ सोशल मीडिया और संगठन विस्तार पर सार्थक चर्चा हुई।
-          </p>
-          <div class="mt-2.5 flex flex-wrap gap-1 text-[11px] text-blue-600 dark:text-blue-400 font-medium">
-            <span>#ABVP</span> <span>#ABVPBihar</span> <span>#Chhapra</span>
-          </div>
-        </div>
-        <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
-          <span>Click to view original on X</span>
-          <span class="text-blue-500 font-semibold group-hover:underline">Open Tweet ↗</span>
-        </div>
-      </a>
-
-      <!-- Tweet 3 (JPU आर्थिक शोषण मांग) -->
-      <a href="https://x.com/Aayushkashyap03/status/2093676933804642785" target="_blank" rel="noopener noreferrer" class="flex-none w-80 sm:w-88 p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-md hover:border-black dark:hover:border-slate-500 hover:-translate-y-1 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="flex items-center justify-between mb-3">
-            <div class="flex items-center gap-2.5">
-              <img src="1000083035.png" class="w-9 h-9 rounded-full object-cover border border-orange-500">
-              <div>
-                <div class="font-bold text-xs text-slate-900 dark:text-white">Aayush Kashyap</div>
-                <span class="text-[11px] text-slate-400 font-mono">@AayushKashyap03 • 29 Aug</span>
-              </div>
-            </div>
-            <svg class="w-4 h-4 fill-current text-slate-400 group-hover:text-black dark:group-hover:text-white transition-colors" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          </div>
-          <p class="text-xs sm:text-sm font-hindi leading-relaxed text-slate-700 dark:text-slate-200">
-            ABVP की मांग बस इतनी है कि छात्रों का यह आर्थिक शोषण तुरंत बंद हो और दोषी कॉलेजों पर सख्त कार्रवाई की जाए। <span class="text-blue-500">@JPUniversity_</span> <span class="text-blue-500">@BiharEducation_</span> <span class="text-blue-500">@Governorbihar</span>
-          </p>
-          <div class="mt-2.5 flex flex-wrap gap-1 text-[11px] text-blue-600 dark:text-blue-400 font-medium">
-            <span>#JPU</span> <span>#JaiPrakashUniversity</span> <span>#StudentRights</span> <span>#BiharHigherEducation</span>
-          </div>
-        </div>
-        <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
-          <span>Click to view original on X</span>
-          <span class="text-blue-500 font-semibold group-hover:underline">Open Tweet ↗</span>
-        </div>
-      </a>
-
-      <!-- Tweet 4 (वैचारिक पोस्ट) -->
-      <a href="https://x.com/Aayushkashyap03/status/2105409600837341315" target="_blank" rel="noopener noreferrer" class="flex-none w-80 sm:w-88 p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-md hover:border-black dark:hover:border-slate-500 hover:-translate-y-1 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="flex items-center justify-between mb-3">
-            <div class="flex items-center gap-2.5">
-              <img src="1000083035.png" class="w-9 h-9 rounded-full object-cover border border-orange-500">
-              <div>
-                <div class="font-bold text-xs text-slate-900 dark:text-white">Aayush Kashyap</div>
-                <span class="text-[11px] text-slate-400 font-mono">@AayushKashyap03 • Recent</span>
-              </div>
-            </div>
-            <svg class="w-4 h-4 fill-current text-slate-400 group-hover:text-black dark:group-hover:text-white transition-colors" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          </div>
-          <p class="text-xs sm:text-sm font-hindi leading-relaxed text-slate-700 dark:text-slate-200">
-            पूरे उत्तराखंड और देश के बड़े विश्वविद्यालयों में जब ABVP भगवा लहराती है तब तो मुंह सिल जाता है! 🤡 एक छोटे से कॉलेज में गलती से जीत क्या मिल गई, ढोल ऐसे पीट रहे हैं जैसे देवभूमि जीत ली हो। जमीन पर आइए, भ्रम टूट जाएगा! 🥱🚩
-          </p>
-          <div class="mt-2.5 flex flex-wrap gap-1 text-[11px] text-blue-600 dark:text-blue-400 font-medium">
-            <span>#ABVP</span>
-          </div>
-        </div>
-        <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
-          <span>Click to view original on X</span>
-          <span class="text-blue-500 font-semibold group-hover:underline">Open Tweet ↗</span>
-        </div>
-      </a>
-
-      <!-- View More on X -->
-      <a href="https://x.com/Aayushkashyap03" target="_blank" rel="noopener noreferrer" class="flex-none w-64 sm:w-72 p-6 rounded-2xl bg-gradient-to-br from-slate-900 via-black to-slate-900 text-white border border-slate-800 shadow-xl hover:border-orange-500 hover:scale-[1.02] transition-all flex flex-col items-center justify-center text-center group">
-        <div class="w-14 h-14 rounded-2xl bg-white/10 group-hover:bg-white text-white group-hover:text-black flex items-center justify-center transition-all mb-4 shadow-lg">
-          <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-        </div>
-        <h3 class="font-extrabold text-base sm:text-lg">View More on X</h3>
-        <p class="text-xs text-slate-400 mt-1.5 font-mono">@AayushKashyap03</p>
-        <div class="mt-5 px-4 py-2 rounded-full bg-white text-black text-xs font-bold flex items-center gap-1.5 group-hover:bg-orange-500 group-hover:text-white transition-colors shadow">
-          <span>Follow Profile</span>
-          <span>&rarr;</span>
-        </div>
-      </a>
-
-    </div>
-  </section>
-
-  <!-- TAB 3: DAINIK BHASKAR PRESS & NEWS COVERAGE SLIDING SECTION -->
-  <section id="media-coverage" class="max-w-5xl mx-auto px-4 py-8">
-    <div class="flex items-center justify-between mb-4">
-      <div>
-        <div class="flex items-center gap-2">
-          <div class="p-1.5 rounded-lg bg-orange-500/10 text-orange-600 dark:text-orange-400 font-bold">
-            📰
-          </div>
-          <h2 class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white">Media Coverage & Press Reports</h2>
-        </div>
-        <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Dainik Bhaskar print & digital news coverage on student movements</p>
-      </div>
-      <div class="flex gap-2">
-        <button onclick="scrollBlogs(-320)" class="p-2 rounded-full border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800">
-          &#10094;
-        </button>
-        <button onclick="scrollBlogs(320)" class="p-2 rounded-full border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800">
-          &#10095;
-        </button>
-      </div>
-    </div>
-
-    <!-- Horizontal Dainik Bhaskar News Slider -->
-    <div id="blogsContainer" class="flex gap-5 overflow-x-auto no-scrollbar scroll-smooth py-2">
-      
-      <!-- News 1: हल्ला बोल आंदोलन -->
-      <a href="https://www.bhaskar.com/amp/local/bihar/saran/chhapra/news/abvp-launched-halla-bol-movement-for-students-135707477.html" target="_blank" rel="noopener noreferrer" class="flex-none w-72 sm:w-80 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 overflow-hidden shadow-md flex flex-col justify-between hover:-translate-y-1 hover:border-orange-500 transition-all group">
-        <div class="h-44 w-full overflow-hidden bg-slate-950 relative">
-          <img src="1000084153.png" alt="अभाविप हल्ला बोल आंदोलन" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-          <span class="absolute top-2.5 left-2.5 px-2 py-0.5 bg-red-600 text-white text-[10px] font-bold rounded">दैनिक भास्कर एक्सक्लूसिव</span>
-        </div>
-        <div class="p-5 flex-1 flex flex-col justify-between">
-          <div>
-            <div class="flex items-center gap-2 text-[10px] font-bold uppercase text-orange-600">
-              <span>छपरा (सारण)</span> • <span>Dainik Bhaskar</span>
-            </div>
-            <h3 class="font-bold text-sm sm:text-base mt-2 font-hindi text-slate-900 dark:text-white leading-snug">
-              अभाविप ने छात्रों के लिए चलाया हल्ला बोल आंदोलन
-            </h3>
-            <p class="text-xs text-slate-600 dark:text-slate-400 mt-2 line-clamp-2 font-hindi">
-              जेपी विश्वविद्यालय परिसर में विभिन्न महाविद्यालयों के छात्रों के अधिकारों और समस्याओं को लेकर अभाविप का उग्र आंदोलन।
-            </p>
-          </div>
-          <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs font-bold text-orange-600 group-hover:text-orange-700">
-            <span>Read on Bhaskar.com</span>
-            <span>↗</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- News 2: विवेकानंद जयंती एवं प्रतिभा सम्मान -->
-      <a href="https://www.bhaskar.com/amp/local/bihar/saran/chhapra/news/biharchhaprayuva-sangam-pratibha-samman-samaroh-abvp-swami-vivekananda-jayanti-136927660.html" target="_blank" rel="noopener noreferrer" class="flex-none w-72 sm:w-80 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 overflow-hidden shadow-md flex flex-col justify-between hover:-translate-y-1 hover:border-orange-500 transition-all group">
-        <div class="h-44 w-full overflow-hidden bg-slate-950 relative">
-          <img src="1000084155.jpg" alt="युवा संगम सह प्रतिभा सम्मान समारोह" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-          <span class="absolute top-2.5 left-2.5 px-2 py-0.5 bg-orange-600 text-white text-[10px] font-bold rounded">युवा संगम 2026</span>
-        </div>
-        <div class="p-5 flex-1 flex flex-col justify-between">
-          <div>
-            <div class="flex items-center gap-2 text-[10px] font-bold uppercase text-orange-600">
-              <span>प्रेक्षागृह छपरा</span> • <span>Dainik Bhaskar</span>
-            </div>
-            <h3 class="font-bold text-sm sm:text-base mt-2 font-hindi text-slate-900 dark:text-white leading-snug">
-              विवेकानंद जयंती पर छपरा में ABVP का कार्यक्रम: युवाओं को राष्ट्र निर्माण का संदेश
-            </h3>
-            <p class="text-xs text-slate-600 dark:text-slate-400 mt-2 line-clamp-2 font-hindi">
-              अभाविप छपरा (उत्तर बिहार) द्वारा आयोजित युवा संगम में अलग-अलग क्षेत्रों में उत्कृष्ट प्रदर्शन करने वाले छात्र-छात्राओं का भव्य सम्मान।
-            </p>
-          </div>
-          <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs font-bold text-orange-600 group-hover:text-orange-700">
-            <span>Read on Bhaskar.com</span>
-            <span>↗</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- News 3: कुलपति का पुतला फूंका (इंटर्नशिप फीस) -->
-      <a href="https://www.bhaskar.com/amp/local/bihar/saran/chhapra/news/chhapra-abvp-protest-jp-university-internship-fee-controversy-138872189.html" target="_blank" rel="noopener noreferrer" class="flex-none w-72 sm:w-80 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 overflow-hidden shadow-md flex flex-col justify-between hover:-translate-y-1 hover:border-orange-500 transition-all group">
-        <div class="h-44 w-full overflow-hidden bg-slate-950 relative">
-          <img src="1000084114.jpg" alt="कुलपति का पुतला दहन" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-          <span class="absolute top-2.5 left-2.5 px-2 py-0.5 bg-red-600 text-white text-[10px] font-bold rounded">विरोध मार्च</span>
-        </div>
-        <div class="p-5 flex-1 flex flex-col justify-between">
-          <div>
-            <div class="flex items-center gap-2 text-[10px] font-bold uppercase text-orange-600">
-              <span>छात्र आक्रोश</span> • <span>Dainik Bhaskar</span>
-            </div>
-            <h3 class="font-bold text-sm sm:text-base mt-2 font-hindi text-slate-900 dark:text-white leading-snug">
-              छपरा में ABVP का प्रदर्शन, कुलपति का पुतला फूंका: इंटर्नशिप फीस वसूली का विरोध
-            </h3>
-            <p class="text-xs text-slate-600 dark:text-slate-400 mt-2 line-clamp-2 font-hindi">
-              राम जयपाल कॉलेज एवं अन्य संस्थानों में इंटर्नशिप के नाम पर कथित अवैध वसूली के खिलाफ सड़क पर उतरे छात्र कार्यकर्ता।
-            </p>
-          </div>
-          <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs font-bold text-orange-600 group-hover:text-orange-700">
-            <span>Read on Bhaskar.com</span>
-            <span>↗</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- News 4: जेपीयू अनशन व मार्कशीट फीस बढ़ोतरी -->
-      <a href="https://www.bhaskar.com/amp/local/bihar/saran/chhapra/news/chhapra-jpu-student-protest-abvp-mark-sheet-fee-hike-issue-139049334.html" target="_blank" rel="noopener noreferrer" class="flex-none w-72 sm:w-80 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 overflow-hidden shadow-md flex flex-col justify-between hover:-translate-y-1 hover:border-orange-500 transition-all group">
-        <div class="h-44 w-full overflow-hidden bg-slate-950 relative">
-          <img src="1000084157.jpg" alt="जेपीयू अनशन व धरना" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-          <span class="absolute top-2.5 left-2.5 px-2 py-0.5 bg-yellow-600 text-white text-[10px] font-bold rounded">आमरण अनशन</span>
-        </div>
-        <div class="p-5 flex-1 flex flex-col justify-between">
-          <div>
-            <div class="flex items-center gap-2 text-[10px] font-bold uppercase text-orange-600">
-              <span>JPU कैंपस</span> • <span>Dainik Bhaskar</span>
-            </div>
-            <h3 class="font-bold text-sm sm:text-base mt-2 font-hindi text-slate-900 dark:text-white leading-snug">
-              JPU में छात्रों की समस्याओं पर अभाविप का धरना: मार्कशीट-फीस वृद्धि पर अनशन
-            </h3>
-            <p class="text-xs text-slate-600 dark:text-slate-400 mt-2 line-clamp-2 font-hindi">
-              सत्र नियमितीकरण, त्रुटिपूर्ण मार्कशीट सुधार और परीक्षा से जुड़े मामलों के त्वरित समाधान के लिए भूख हड़ताल।
-            </p>
-          </div>
-          <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs font-bold text-orange-600 group-hover:text-orange-700">
-            <span>Read on Bhaskar.com</span>
-            <span>↗</span>
-          </div>
-        </div>
-      </a>
-
-    </div>
-  </section>
-
-  <!-- TAB 4: COMPREHENSIVE SOCIAL MEDIA REACH HUB -->
-  <section id="social-reach" class="max-w-4xl mx-auto px-4 py-10">
-    <div class="text-center mb-8">
-      <div class="inline-block px-3 py-1 bg-orange-100 dark:bg-orange-950/60 text-orange-600 text-xs font-bold rounded-full mb-2 uppercase tracking-wider">
-        Digital Network
-      </div>
-      <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">
-        Social Media Reach
-      </h2>
-      <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
-        Connect across platforms with handle: <strong class="text-orange-600">@AayushKashyap03</strong>
-      </p>
-    </div>
-
-    <!-- 5 Social Channels Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      
-      <!-- Instagram -->
-      <a href="https://instagram.com/AayushKashyap03" target="_blank" rel="noopener noreferrer" class="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-md hover:border-pink-500 hover:shadow-pink-500/10 hover:-translate-y-1 transition-all flex items-center justify-between group">
-        <div class="flex items-center gap-3.5">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-amber-500 via-pink-500 to-purple-600 flex items-center justify-center text-white shadow-md">
-            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          </div>
-          <div>
-            <h3 class="font-bold text-sm text-slate-900 dark:text-white">Instagram</h3>
-            <p class="text-xs text-slate-500 font-mono">@AayushKashyap03</p>
-          </div>
-        </div>
-        <svg class="w-5 h-5 text-slate-400 group-hover:text-pink-600 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-      </a>
-
-      <!-- X (Twitter) -->
-      <a href="https://x.com/AayushKashyap03" target="_blank" rel="noopener noreferrer" class="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-md hover:border-black dark:hover:border-white hover:-translate-y-1 transition-all flex items-center justify-between group">
-        <div class="flex items-center gap-3.5">
-          <div class="w-12 h-12 rounded-xl bg-black text-white dark:bg-white dark:text-black flex items-center justify-center shadow-md">
-            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          </div>
-          <div>
-            <h3 class="font-bold text-sm text-slate-900 dark:text-white">X (Twitter)</h3>
-            <p class="text-xs text-slate-500 font-mono">@AayushKashyap03</p>
-          </div>
-        </div>
-        <svg class="w-5 h-5 text-slate-400 group-hover:text-black dark:group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-      </a>
-
-      <!-- Facebook -->
-      <a href="https://facebook.com/AayushKashyap03" target="_blank" rel="noopener noreferrer" class="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-md hover:border-blue-600 hover:shadow-blue-500/10 hover:-translate-y-1 transition-all flex items-center justify-between group">
-        <div class="flex items-center gap-3.5">
-          <div class="w-12 h-12 rounded-xl bg-[#1877F2] text-white flex items-center justify-center shadow-md">
-            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036c-2.148 0-2.771 1.022-2.771 2.583v1.388h4.512l-.71 3.667h-3.802v7.98c7.172-.88 12.709-7.009 12.709-14.444C23.648 4.032 18.435-.75 12-.75s-11.648 4.782-11.648 10.75c0 7.435 5.537 13.564 12.709 14.444z"/></svg>
-          </div>
-          <div>
-            <h3 class="font-bold text-sm text-slate-900 dark:text-white">Facebook</h3>
-            <p class="text-xs text-slate-500 font-mono">@AayushKashyap03</p>
-          </div>
-        </div>
-        <svg class="w-5 h-5 text-slate-400 group-hover:text-blue-600 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-      </a>
-
-      <!-- YouTube -->
-      <a href="https://youtube.com/@Aayushkashyap03" target="_blank" rel="noopener noreferrer" class="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-md hover:border-red-600 hover:shadow-red-500/10 hover:-translate-y-1 transition-all flex items-center justify-between group">
-        <div class="flex items-center gap-3.5">
-          <div class="w-12 h-12 rounded-xl bg-[#FF0000] text-white flex items-center justify-center shadow-md">
-            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-          </div>
-          <div>
-            <h3 class="font-bold text-sm text-slate-900 dark:text-white">YouTube</h3>
-            <p class="text-xs text-slate-500 font-mono">@Aayushkashyap03</p>
-          </div>
-        </div>
-        <svg class="w-5 h-5 text-slate-400 group-hover:text-red-600 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-      </a>
-
-      <!-- WhatsApp Channel -->
-      <a href="https://whatsapp.com/channel/0029Vb8lKOcEFeXevvDkfI3J" target="_blank" rel="noopener noreferrer" class="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-md hover:border-emerald-500 hover:shadow-emerald-500/10 hover:-translate-y-1 transition-all flex items-center justify-between group sm:col-span-2 lg:col-span-2">
-        <div class="flex items-center gap-3.5">
-          <div class="w-12 h-12 rounded-xl bg-[#25D366] text-white flex items-center justify-center shadow-md">
-            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12.031 0C5.394 0 0 5.394 0 12.031c0 2.12.553 4.184 1.603 6.007L0 24l6.155-1.573a11.967 11.967 0 0 0 5.876 1.536h.005c6.636 0 12.03-5.394 12.03-12.032 0-3.212-1.251-6.233-3.524-8.508C18.267 1.25 15.244 0 12.031 0zm-.005 21.996h-.004a9.96 9.96 0 0 1-5.086-1.39l-.365-.217-3.776.966.993-3.682-.238-.378a9.957 9.957 0 0 1-1.528-5.264c0-5.511 4.484-9.995 9.997-9.995 2.671 0 5.182 1.04 7.07 2.929a9.92 9.92 0 0 1 2.926 7.068c0 5.512-4.485 9.993-9.987 9.993zm5.474-7.472c-.3-.15-1.777-.876-2.052-.976-.275-.1-.476-.15-.676.15-.2.3-.776.976-.951 1.176-.176.2-.351.226-.652.076-.3-.15-1.268-.467-2.416-1.492-.894-.797-1.497-1.782-1.673-2.082-.176-.3-.019-.462.132-.612.136-.134.3-.35.45-.526.151-.176.201-.3.301-.501.1-.2.05-.376-.025-.526-.075-.15-.676-1.63-.927-2.233-.244-.588-.492-.508-.676-.518l-.577-.01c-.2 0-.526.075-.802.375-.276.3-1.052 1.028-1.052 2.508 0 1.48 1.077 2.91 1.228 3.11.15.2 2.12 3.238 5.136 4.542.717.31 1.277.496 1.714.635.72.229 1.376.197 1.895.12.578-.087 1.777-.727 2.028-1.43.25-.702.25-1.304.175-1.43-.075-.125-.275-.2-.575-.35z"/></svg>
-          </div>
-          <div>
-            <h3 class="font-bold text-sm text-slate-900 dark:text-white">WhatsApp Channel</h3>
-            <p class="text-xs text-slate-500">Movement updates & bulletins</p>
-          </div>
-        </div>
-        <svg class="w-5 h-5 text-slate-400 group-hover:text-emerald-500 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-      </a>
-
-    </div>
-  </section>
-
-  <!-- CONTACT US SECTION -->
-  <section id="contact-us" class="max-w-4xl mx-auto px-4 py-10 mb-12">
-    <div class="bg-gradient-to-br from-orange-600 via-orange-700 to-amber-700 rounded-3xl p-6 sm:p-10 text-white shadow-2xl text-center">
-      <h2 class="text-2xl sm:text-3xl font-extrabold font-hindi">सीधे संवाद एवं सहयोग के लिए संपर्क करें</h2>
-      <p class="text-xs sm:text-sm text-orange-100 max-w-lg mx-auto mt-2 font-hindi">
-        छात्रहितों, कॉलेज समस्याओं या सामाजिक अभियानों से जुड़ने के लिए हमारे आधिकारिक चैनलों पर संदेश भेजें।
-      </p>
-      
-      <div class="mt-6 flex flex-wrap justify-center gap-3">
-        <a href="https://whatsapp.com/channel/0029Vb8lKOcEFeXevvDkfI3J" target="_blank" class="px-5 py-3 rounded-full bg-white text-orange-700 font-bold text-xs sm:text-sm hover:bg-orange-50 shadow-md flex items-center gap-2">
-          <span>💬 Join WhatsApp Channel</span>
+      <div class="links-stack">
+        <a href="https://instagram.com/AayushKashyap03" target="_blank" rel="noopener" class="social-row btn-insta">
+          <div class="btn-left-part"><i class="fa-brands fa-instagram"></i> Instagram</div>
+          <i class="fa-solid fa-chevron-right"></i>
         </a>
-        <a href="https://instagram.com/AayushKashyap03" target="_blank" class="px-5 py-3 rounded-full bg-slate-900 text-white font-bold text-xs sm:text-sm hover:bg-black shadow-md flex items-center gap-2">
-          <span>📸 DM on Instagram</span>
+        <a href="https://x.com/AayushKashyap03" target="_blank" rel="noopener" class="social-row btn-tw">
+          <div class="btn-left-part"><i class="fa-brands fa-x-twitter"></i> X (Twitter)</div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
+        <a href="https://facebook.com/AayushKashyap03" target="_blank" rel="noopener" class="social-row btn-fb">
+          <div class="btn-left-part"><i class="fa-brands fa-facebook"></i> Facebook</div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
+        <a href="https://youtube.com/@Aayushkashyap03" target="_blank" rel="noopener" class="social-row btn-yt">
+          <div class="btn-left-part"><i class="fa-brands fa-youtube"></i> YouTube</div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
+        <a href="https://whatsapp.com/channel/0029Vb8IKOcEFeXaKz7m8h2k" target="_blank" rel="noopener" class="social-row btn-wa">
+          <div class="btn-left-part"><i class="fa-brands fa-whatsapp"></i> WhatsApp Channel</div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
+        <a href="https://github.com/Aayushkashyap03" target="_blank" rel="noopener" class="social-row btn-git">
+          <div class="btn-left-part"><i class="fa-brands fa-github"></i> GitHub</div>
+          <i class="fa-solid fa-chevron-right"></i>
         </a>
       </div>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="border-t border-slate-200 dark:border-slate-800 py-8 text-center text-xs text-slate-500 dark:text-slate-400">
-    <p>© 2026 Aayush Kashyap. Student Leader Portfolio.</p>
-    <p class="mt-1">Khelo Bharat Sah-Sanyojak • Akhil Bhartiya Vidyarthi Parishad (ABVP) Chapra, Bihar</p>
-  </footer>
+    <footer>
+      © 2026 Aayush Kashyap. All Rights Reserved.
+    </footer>
+  </div>
 
-  <!-- Vanilla JavaScript Logic -->
-  <script>
-    // Theme Toggle
-    const themeBtn = document.getElementById('themeToggle');
-    if (themeBtn) {
-      themeBtn.addEventListener('click', () => {
-        document.documentElement.classList.toggle('dark');
-      });
-    }
-
-    // Burger Menu Logic
-    const sideMenu = document.getElementById('sideMenu');
-    const menuOpenBtn = document.getElementById('menuOpenBtn');
-    const menuCloseBtn = document.getElementById('menuCloseBtn');
-    const menuNavLinks = document.querySelectorAll('.menu-nav-link');
-
-    function openMenu() {
-      if (sideMenu) sideMenu.classList.remove('hidden');
-    }
-    function closeMenu() {
-      if (sideMenu) sideMenu.classList.add('hidden');
-    }
-
-    if (menuOpenBtn) menuOpenBtn.addEventListener('click', openMenu);
-    if (menuCloseBtn) menuCloseBtn.addEventListener('click', closeMenu);
-    menuNavLinks.forEach(link => {
-      link.addEventListener('click', closeMenu);
-    });
-
-    // Bio Toggle
-    const seeMoreBtn = document.getElementById('seeMoreBtn');
-    const bioShort = document.getElementById('bioShort');
-    const bioFull = document.getElementById('bioFull');
-    const seeMoreText = document.getElementById('seeMoreText');
-    const seeMoreArrow = document.getElementById('seeMoreArrow');
-
-    if (seeMoreBtn) {
-      seeMoreBtn.addEventListener('click', () => {
-        const isHidden = bioFull.style.display === 'none';
-        if (isHidden) {
-          bioFull.style.display = 'block';
-          bioShort.style.display = 'none';
-          seeMoreText.innerText = 'Show Less / संक्षिप्त परिचय';
-          seeMoreArrow.innerText = '▲';
-        } else {
-          bioFull.style.display = 'none';
-          bioShort.style.display = 'block';
-          seeMoreText.innerText = 'See More / पूरा परिचय पढ़ें';
-          seeMoreArrow.innerText = '▼';
-        }
-      });
-    }
-
-    // Generic Card Read More Toggle for ABVP Subtopics
-    function toggleCard(prevId, fullId, btn) {
-      const prevEl = document.getElementById(prevId);
-      const fullEl = document.getElementById(fullId);
-      const spanText = btn.querySelector('span:first-child');
-      const spanArrow = btn.querySelector('span:last-child');
-
-      if (fullEl.style.display === 'none') {
-        fullEl.style.display = 'block';
-        prevEl.style.display = 'none';
-        spanText.innerText = 'Show Less / संक्षेप में';
-        spanArrow.innerText = '▲';
-      } else {
-        fullEl.style.display = 'none';
-        prevEl.style.display = 'block';
-        spanText.innerText = 'Know More / विस्तार से पढ़ें';
-        spanArrow.innerText = '▼';
-      }
-    }
-
-    // Toggle Hidden 'ABVP Se Kaise Jude' Section
-    function toggleJoinSection() {
-      const section = document.getElementById('joinAbvpSection');
-      const arrow = document.getElementById('joinBtnArrow');
-      if (section.style.display === 'none') {
-        section.style.display = 'block';
-        arrow.innerText = '▲';
-        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      } else {
-        section.style.display = 'none';
-        arrow.innerText = '▼';
-      }
-    }
-
-    // Photo Slider (Handles all 9 slides dynamically)
-    let currentSlide = 0;
-    const slides = document.querySelectorAll('.work-slide');
-    const dotsContainer = document.getElementById('dotsContainer');
-    const prevBtn = document.getElementById('sliderPrevBtn');
-    const nextBtn = document.getElementById('sliderNextBtn');
-
-    if (slides.length > 0 && dotsContainer) {
-      dotsContainer.innerHTML = '';
-      slides.forEach((_, i) => {
-        const dot = document.createElement('button');
-        dot.className = `h-2 rounded-full transition-all ${i === 0 ? 'bg-orange-500 w-5' : 'bg-white/50 w-2'}`;
-        dot.addEventListener('click', () => goToSlide(i));
-        dotsContainer.appendChild(dot);
-      });
-    }
-
-    function updateSlider() {
-      const dots = dotsContainer ? dotsContainer.querySelectorAll('button') : [];
-      slides.forEach((slide, idx) => {
-        slide.style.opacity = idx === currentSlide ? '1' : '0';
-        slide.style.pointerEvents = idx === currentSlide ? 'auto' : 'none';
-      });
-      dots.forEach((dot, idx) => {
-        dot.className = `h-2 rounded-full transition-all ${idx === currentSlide ? 'bg-orange-500 w-5' : 'bg-white/50 w-2'}`;
-      });
-    }
-
-    function nextSlide() {
-      if (slides.length === 0) return;
-      currentSlide = (currentSlide + 1) % slides.length;
-      updateSlider();
-    }
-
-    function prevSlide() {
-      if (slides.length === 0) return;
-      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-      updateSlider();
-    }
-
-    function goToSlide(i) {
-      currentSlide = i;
-      updateSlider();
-    }
-
-    if (nextBtn) nextBtn.addEventListener('click', nextSlide);
-    if (prevBtn) prevBtn.addEventListener('click', prevSlide);
-
-    setInterval(nextSlide, 5000);
-
-    // Tab Scrolling Helpers
-    function scrollTweets(val) {
-      const container = document.getElementById('tweetsContainer');
-      if (container) container.scrollBy({ left: val, behavior: 'smooth' });
-    }
-    function scrollBlogs(val) {
-      const container = document.getElementById('blogsContainer');
-      if (container) container.scrollBy({ left: val, behavior: 'smooth' });
-    }
-  </script>
 </body>
 </html>
